@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+	<item name="i-Box" data="i-box.xml" />
+	<item name="Capability" data="capability.xml" />
+	<item name="+Design Collaborarions" data="i-box.xml" />
+	<item name="Cozyプロジェクト" data="cozy.xml" />
+	<item name="Cozyプロジェクト" data="cozy_catalog.xml" />
+	<item name="ユニオン「病院／福祉施設用カタログ」" data="union.xml" />
+	<item name="ユニオン／広告用イメージカット（消化器／アルジャン） " data="union_argent.xml" />
+	<item name="武蔵野文庫のおばあちゃん" data="obaachan.xml" />
+	<item name="劇団「シアトリカル・ベース・ワンスモア」『ボタン工場の羊少女メー』" data="once.xml" />
+	<item name="新ビジネス開拓創造コンペ" data="newbiz.xml" />
+	<item name="エネゲート" data="enegate.xml" />
+</items>

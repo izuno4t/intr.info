@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<menu><item name="Top"/>
+	<item name="About Us" path="about" />
+	<item name="Project"  path="project" />
+	<item name="Member"   path="member" />
+	<item name="Contact"  path="contact" />
+</menu>

@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<head>
+<title>inter- colorful</title>
+<script src="jquery-1.4.2.min.js" type="text/javascript"></script>
+<script src="jquery.random.js" type="text/javascript"></script>
+<script type="text/javascript">
+     $(document).ready(function(){
+       $("#logo").click(function(){
+		 //alert("rgb(" + $.random(255) + "," + $.random(255) + "," + $.random(255) + ")");
+		 var color = "rgb(" + $.random(255) + "," + $.random(255) + "," + $.random(255) + ")";
+		 var bgcolor = $('#logo').css("background-color");
+         $('#logo').css("background-color",color);
+         $('body').css("background-color",bgcolor);
+         event.preventDefault();
+       });
+     });     
+</script>
+<style type="text/css">
+body{
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+#wrapper{
+	margin: auto;
+	width: 760px;
+}
+#logo-wrapper{
+	background: #fff;
+}
+
+#logo:hover{
+	cursor: pointer;
+}
+</style>
+</head>
+<body>
+	<div id="logo-wrapper">
+	  <img src="inter.png" width="385" height="203" id="logo" style="background:#000;"/>
+	</div>
+</body>
+</html>

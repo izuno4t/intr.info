@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<items about="about">
-	<item name="inter-" data="inter.xml" />
-	<item name="Interface" data="interface .xml" />
-	<item name="Concept" data="concept.xml" />
-	<item name="Fields" data="fields.xml" />
-	<item name="Project" data="project.xml" />
-</items>
